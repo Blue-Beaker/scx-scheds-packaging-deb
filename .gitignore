@@ -1,0 +1,5 @@
+/scx-*
+/scx_*.orig.tar.gz
+scx_*.buildinfo
+scx_*.changes
+scx_*.deb
