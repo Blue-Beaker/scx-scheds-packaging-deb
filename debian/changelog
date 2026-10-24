@@ -1,3 +1,11 @@
+scx-scheds (1.1.4-1) resolute; urgency=medium
+
+  * New upstream release v1.1.4.
+  * Rename source and binary package from scx to scx-scheds to avoid
+    clashing with the unrelated scx package in the archive.
+
+ -- Andrea Righi <arighi@nvidia.com>  Sat, 24 Oct 2026 12:00:00 +0200
+
 scx (1.1.1-1) resolute; urgency=medium
 
   * New upstream release v1.1.1.

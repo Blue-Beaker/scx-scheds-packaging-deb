@@ -1,4 +1,4 @@
-Source: scx
+Source: scx-scheds
 Section: misc
 Priority: optional
 Maintainer: Andrea Righi <arighi@nvidia.com>
@@ -12,7 +12,7 @@ Homepage: https://github.com/sched-ext/scx
 Vcs-Git: https://github.com/sched-ext/scx
 Vcs-Browser: https://github.com/sched-ext/scx
 
-Package: scx
+Package: scx-scheds
 Architecture: amd64 arm64 armhf ppc64el s390x
 Depends:
  ${misc:Depends},

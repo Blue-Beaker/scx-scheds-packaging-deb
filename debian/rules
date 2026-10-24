@@ -9,6 +9,10 @@ CARGO_WORKSPACE_ARGS := \
 	--exclude scxcash \
 	--exclude vmlinux_docify \
 	--exclude scx_arena_selftests \
+	--exclude scx_forge_agent \
+	--exclude scx_eevdf \
+	--exclude scx_nitosis \
+	--exclude scx_mavd \
 	--workspace
 
 export RUSTC = /home/bekr/.cargo/bin/rustc

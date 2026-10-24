@@ -22,12 +22,13 @@ PKG_ROOT="$(pwd)"
 
 # Upstream version = changelog version minus the Debian revision and any
 # repack suffix (e.g. 1.1.1+ds-1 -> 1.1.1).
+source_package=$(dpkg-parsechangelog -l debian/changelog -SSource)
 version=$(dpkg-parsechangelog -l debian/changelog -SVersion)
 upstream_version="${version%-*}"
 upstream_tag="v${upstream_version%%+*}"
 
 orig_dir="scx-${upstream_version}"
-orig_tarball="scx_${upstream_version}.orig.tar.gz"
+orig_tarball="${source_package}_${upstream_version}.orig.tar.gz"
 
 # Idempotent: clean any leftovers from a previous run.
 rm -rf "$orig_dir" "$orig_tarball"
