@@ -1,3 +1,6 @@
+## Notes
+Doesn't work on linux 7.1.3 from debian backports. 7.0.13 works.
+
 # scx-deb
 
 Debian/Ubuntu packaging for [sched-ext/scx](https://github.com/sched-ext/scx),
